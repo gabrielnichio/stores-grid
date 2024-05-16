@@ -1,0 +1,27 @@
+.store {
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 100ms ease-in-out;
+}
+
+.store:hover {
+    transform: scale(1.05);
+}
+
+.store img {
+    max-width: 100%;
+}
+
+.store-content {
+
+    padding: 30px;
+}
+
+.store-content p {
+
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+}
