@@ -1,7 +1,7 @@
 export interface IStores {
+    creationAt: string
     id: number;
-    title: string;
-    categorie: string;
-    description: string;
-    url: string;
+    image: string;
+    name: string;
+    updatedAt: string;
 }

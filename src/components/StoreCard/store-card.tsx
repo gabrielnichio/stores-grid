@@ -9,11 +9,9 @@ interface StoreCardProps {
 export const StoreCard = ({ store }: StoreCardProps) => {
     return (
         <div className='store'>
-            <img src={comercial} alt={store.title} />
+            <img src={store.image} alt={store.name} />
             <div className='store-content'>
-                <h1>{store.title}</h1>
-                <h2>{store.categorie}</h2>
-                <p>{store.description}</p>
+                <h1>{store.name}</h1>
             </div>
         </div>
     )
